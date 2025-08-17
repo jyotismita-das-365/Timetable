@@ -1,0 +1,101 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+.head {
+  text-align: center;
+  
+}
+
+.timetable {
+  display: grid;
+  grid-template-columns: repeat(9,1fr);
+  border: 3px solid black;
+  gap: 0px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-rows: repeat(9, 50px);
+  grid-template-columns: repeat(9, 100px);
+  gap: 0px;
+}
+
+.grid-item {
+  background-color: lightblue;
+  border: 1px solid black;
+  font-size: 1.rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.text {
+  background-color: rgba(0, 0, 250,0.3);
+  font-size: 15px;
+  text-align: center;  
+}
+
+.dbms {
+  background-color: blueviolet;
+}
+
+.dbmslab {
+  background-color: blueviolet;
+  grid-column: 2/4;
+}
+
+.wt{
+  background-color: brown;
+}
+
+.wtlab{
+  background-color: brown;
+  grid-column: 2/4;
+}
+
+.cn {
+  background-color: coral;
+}
+
+.cnlab {
+  background-color: coral;
+  grid-column: 2/4;
+}
+
+.se {
+  background-color: chocolate;
+}
+
+.selab{
+  background-color: chocolate;
+  grid-column: 4/6;
+}
+
+.erp {
+  background-color: chartreuse;
+}
+
+.flat {
+  background-color: yellow;
+}
+
+.library {
+  background-color: aqua;
+}
+
+.break {
+  background-color: darkgray;
+  grid-column: 6/7;
+  grid-row: 3/8;
+}
+
+.coi {
+  background-color: crimson;
+}
+
+.value {
+  background-color: tomato;
+  grid-column: 8/10;
+}
