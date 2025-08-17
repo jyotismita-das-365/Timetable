@@ -126,9 +126,3 @@ body {
   font-size: 6px;
   grid-column: 8/10;
 }
-
-@media screen and (orientation: landscape) {
-  body{
-    transform: rotate(90deg);
-  }
-}
